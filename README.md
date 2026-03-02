@@ -12,12 +12,6 @@ his repository contains my learning and practice files while studying Full Stack
 - Backend 
 - Databases 
 
-## 🛠 Practice Projects
-- Basic HTML structure
-- CSS styling
-- Layout design
-- Small mini projects
-
 ## 👨‍💻 Author
 Shiv Pankhaniya
 
