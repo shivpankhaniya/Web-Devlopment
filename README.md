@@ -15,8 +15,4 @@ his repository contains my learning and practice files while studying Full Stack
 ## 👨‍💻 Author
 Shiv Pankhaniya
 
-<h5>Day-1</h5>
 
-<p>
-  Today i learn about some basic html tag like a 1.paragraph 2.heading
-</p>
