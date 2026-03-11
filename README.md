@@ -16,6 +16,7 @@ his repository contains my learning and practice files while studying Full Stack
 - Databases
 <<<<<<< HEAD
 
+<<<<<<< HEAD
 ## 🛠 Practice Projects
 
 - Basic HTML structure
@@ -35,11 +36,14 @@ his repository contains my learning and practice files while studying Full Stack
 - Small mini projects
 
 >>>>>>> 8e2e5cc (add boilerplate code)
+=======
+>>>>>>> 96be8aa20070d1c6e809f06f797531d7be978aa3
 ## 👨‍💻 Author
 
 Shiv Pankhaniya
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <!-- Boilerplate -->
 <!DOCTYPE html>
 <html lang="en">
@@ -76,3 +80,6 @@ Shiv Pankhaniya
 <!--  -->
 >>>>>>> 8e2e5cc (add boilerplate code)
 >>>>>>> 03e8256 (add boilerplate code)
+=======
+
+>>>>>>> 96be8aa20070d1c6e809f06f797531d7be978aa3
