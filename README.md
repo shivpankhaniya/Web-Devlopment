@@ -42,8 +42,6 @@ his repository contains my learning and practice files while studying Full Stack
 
 Shiv Pankhaniya
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 <!-- Boilerplate -->
 <!DOCTYPE html>
 <html lang="en">
@@ -58,28 +56,4 @@ Shiv Pankhaniya
 </html>
 
 <!--  This is the standare format of html -->
-<!--  -->
-=======
-<<<<<<< HEAD
 
-=======
-<!-- Boilerplate -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>shiv pankhaniya</h1>
-</body>
-</html>
-
-<!--  This is the standare format of html -->
-<!--  -->
->>>>>>> 8e2e5cc (add boilerplate code)
->>>>>>> 03e8256 (add boilerplate code)
-=======
-
->>>>>>> 96be8aa20070d1c6e809f06f797531d7be978aa3
