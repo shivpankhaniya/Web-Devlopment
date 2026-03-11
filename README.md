@@ -37,6 +37,7 @@ his repository contains my learning and practice files while studying Full Stack
 Shiv Pankhaniya
 
 <!-- Boilerplate -->
+<!-- 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -48,6 +49,7 @@ Shiv Pankhaniya
     <h1>shiv pankhaniya</h1>
 </body>
 </html>
+ -->
 
 <!--  This is the standare format of html -->
 
