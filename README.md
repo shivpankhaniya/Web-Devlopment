@@ -14,9 +14,7 @@ his repository contains my learning and practice files while studying Full Stack
 - Git & GitHub
 - Backend
 - Databases
-<<<<<<< HEAD
 
-<<<<<<< HEAD
 ## 🛠 Practice Projects
 
 - Basic HTML structure
