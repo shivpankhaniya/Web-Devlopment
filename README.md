@@ -32,7 +32,7 @@ his repository contains my learning and practice files while studying Full Stack
 
 ## 👨‍💻 Author
 
-Shiv Pankhaniya
+Shiv K. Pankhaniya
 
 <!-- Boilerplate -->
 <!-- 
