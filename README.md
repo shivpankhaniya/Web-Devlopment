@@ -52,10 +52,3 @@ Shiv Pankhaniya
 <!--  This is the standare format of html -->
 
 
-<!-- different between block & inline element -->
-
-<!-- inline & block elements -->
-    <!-- inline element = takes up the full width available (whole block) new content start from new line -->
-    <!-- block element = takes up only necessary width new content don't start from new line -->
-
-
