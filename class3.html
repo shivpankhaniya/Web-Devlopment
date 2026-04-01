@@ -1,53 +1,86 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- <table> table are used to represent real life tabledata </table> -->
 
     <!-- <tr>used to display table row</tr> -->
-     <!-- <td>used to display table data</td> -->
-      <!-- <th>used to display table header</th> -->
+    <!-- <td>used to display table data</td> -->
+    <!-- <th>used to display table header</th> -->
 
-      <!-- <thead>used to wrap table header</thead>
+    <!-- <thead>used to wrap table header</thead>
       <tbody>used to wrap table body</tbody>
       <tfoot>used to wrap table footer</tfoot> -->
 
-      <!-- colspan & rowspan attributes = are used to crate cells which spans over multiplw=e rows & columns -->
+    <!-- colspan & rowspan attributes = are used to crate cells which spans over multiplw=e rows & columns -->
 
-      <table border="black">
-<caption>A test table with merged cells</caption>
-<tr>
-    <td rowspan="2"></td>
-    <td colspan="2">average</td>
-    <td rowspan="2">redeyes</td>
-</tr>
+    <table border="black">
+      <caption>
+        A test table with merged cells
+      </caption>
+      <tr>
+        <td rowspan="2"></td>
+        <td colspan="2">average</td>
+        <td rowspan="2">redeyes</td>
+      </tr>
 
-<tr>
-    <td>height</td>
-    <td>weight</td>
-</tr>
+      <tr>
+        <td>height</td>
+        <td>weight</td>
+      </tr>
 
-<tr></tr>
+      <tr></tr>
 
-<tr>
-    <td>males</td>
-    <td>1.9</td>
-    <td>0,003</td>
-    <td>40%</td>
-</tr>
-<tr>
-    <td>females</td>
-    <td>1.7</td>
-    <td>0.002</td>
-    <td>43%</td>
-</tr>
+      <tr>
+        <td>males</td>
+        <td>1.9</td>
+        <td>0,003</td>
+        <td>40%</td>
+      </tr>
+      <tr>
+        <td>females</td>
+        <td>1.7</td>
+        <td>0.002</td>
+        <td>43%</td>
+      </tr>
+    </table>
+    <br />
+    <hr />
+    <br />
 
-      </table>
+    <!-- <form> are used to collect a data from the user</form> -->
+    <!-- <form action="">action attribute are used to define what action need to perform next</form> -->
+    <!-- <input = used to crete multiple controls> -->
+    <!-- <button>are used to create button like submit,reset etc....</button> -->
 
+    <form action="action.php">
+      <div>
+        <label for="username">username</label>
+        <input type="text" id="username" />
+      </div>
+      <br />
 
-</body>
+      <div>
+        <label for="password">password</label>
+        <input type="text" id="password" />
+      </div>
+      <br />
+
+      <div>
+        username:
+        <input type="text" placeholder="enter your name" />
+      </div>
+      <br />
+
+      <div>
+        <button type="submit">submit</button>
+        <button type="reset">reset all info</button>
+        <button type="button">submit</button>
+      </div>
+    </form>
+  </body>
 </html>
