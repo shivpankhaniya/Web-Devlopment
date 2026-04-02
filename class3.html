@@ -58,8 +58,7 @@
     <!-- <button>are used to create button like submit,reset etc....</button> -->
 
     <form action="action.php">
-
-<!-- (for id) is a classically approach to create a input type  -->
+      <!-- (for id) is a classically approach to create a input type  -->
       <div>
         <label for="username">username:</label>
         <input type="text" id="username" />
@@ -84,5 +83,52 @@
         <button type="button">submit</button>
       </div>
     </form>
+
+    <br />
+    <hr />
+    <div>
+      <!-- name = name of the form control submitted with the from as part of a name/value pair  -->
+
+      <form
+        action="https://www.google.com/search?gs_ssp=eJzj4tTP1TcwMU02T1JgNGB0YPBiS8_PT89JBQBASQXT&q=google&rlz=1C1CHBF_enIN1135IN1135&oq=goo&gs_lcrp=EgZjaHJvbWUqEwgBEC4YgwEYxwEYsQMY0QMYgAQyBggAEEUYOTITCAEQLhiDARjHARixAxjRAxiABDINCAIQABiDARixAxiABDINCAMQABiDARixAxiABDINCAQQABiDARixAxiABDIGCAUQRRg8MgYIBhBFGDwyBggHEEUYPNIBCDIxMDRqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8"
+      >
+        <input type="text" placeholder="search on google " name="gs_ssp" />
+        <button>search</button>
+      </form>
+      <br />
+      <hr />
+
+      <form action="/action">
+
+        * I am a male & i am 18+ eligible for voting <br />
+        <input type="checkbox" id="true" name="true" />
+        <label for="true">male</label>
+        <input type="checkbox" id="false" name="true" />
+        <label for="false">18+</label>
+       
+        <!-- in checkbox input element we tick multiple checkbox at same time   -->
+        <br />
+        <br />
+
+        * Sachin Tendulakar is a God of Cricket <br />
+        <input type="radio" id="true" name="true" />
+        <label for="true">true</label>
+        <input type="radio" id="false" name="true" />
+        <label for="false">false</label>
+        
+        <!-- in radio input element we choice only one tickbox at same time -->
+         <br><br>
+
+        <!-- <select name="" id=""> is used to choice your occupation,profession etc...</select> -->
+         <select name="profession" id="profession">
+         <option>choice your occupation</option>
+         <option value="stu">student</option>
+         <option value="dev">developer</option>
+         <option value="tech">teacher</option>
+         </select>
+         <br><br>.
+          <button>submit</button>
+      </form>
+    </div>
   </body>
 </html>
