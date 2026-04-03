@@ -99,13 +99,12 @@
       <hr />
 
       <form action="/action">
-
         * I am a male & i am 18+ eligible for voting <br />
         <input type="checkbox" id="true" name="true" />
         <label for="true">male</label>
         <input type="checkbox" id="false" name="true" />
         <label for="false">18+</label>
-       
+
         <!-- in checkbox input element we tick multiple checkbox at same time   -->
         <br />
         <br />
@@ -115,26 +114,41 @@
         <label for="true">true</label>
         <input type="radio" id="false" name="true" />
         <label for="false">false</label>
-        
         <!-- in radio input element we choice only one tickbox at same time -->
-         <br><br>
+        <br /><br />
 
         <!-- <select name="" id=""> is used to choice your occupation,profession etc...</select> -->
-         <select name="profession" id="profession">
-         <option>choice your occupation</option>
-         <option value="stu">student</option>
-         <option value="dev">developer</option>
-         <option value="tech">teacher</option>
-         </select>
-         <br><br>
+        <select name="profession" id="profession">
+          <option>choice your occupation</option>
+          <option value="stu">student</option>
+          <option value="dev">developer</option>
+          <option value="tech">teacher</option>
+        </select>
+        <br /><br />
 
-         * i am full stack developer
-         <input type="radio" id="true" name="true" />
+        * i am full stack developer
+        <input type="radio" id="true" name="true" />
         <label for="true">Yes</label>
         <input type="radio" id="false" name="true" />
         <label for="false">No</label>
-        
-          <button>submit</button>
+        <br /><br />
+
+        <!-- range = range input type is use for volume up & down  -->
+        volume
+        <input type="range" id="volume" name="vol" min="0" max="100" />
+        <label for="volume"></label>
+        <br /><br />
+
+        <!-- <textarea name="" id="">used for provide feedback</textarea> -->
+        <textarea
+          name="feedback"
+          placeholder="enter your feedback"
+          rows="6"
+          cols="24"
+        ></textarea>
+
+        <br /><br />
+        <button>submit</button>
       </form>
     </div>
   </body>
