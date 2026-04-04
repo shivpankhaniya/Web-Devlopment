@@ -12,3 +12,12 @@ button{
 /* background-color = is used to set background color  */
 /* color = is used to set color for foreground */
 
+/* color system = in css many color system use (1 = RGB color system RGB stand for red,green,blue (slect in 0-255 range )) (2 = hex code hex code is define as #ffffff (select in 0-9 A,B,C,D,E,F) )  */
+h3{
+    color: rgb(255,255,0);
+    background-color:#ffa13e;
+}
+h4{
+    color: #de1569;
+    background-color: rgb(154, 124, 166);
+}
