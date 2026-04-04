@@ -1,0 +1,14 @@
+h2{
+    color: orange;
+}
+p{
+    background-color: black;
+    color: white;
+}
+button{
+    background-color: blue;
+    color: white;
+}
+/* background-color = is used to set background color  */
+/* color = is used to set color for foreground */
+
