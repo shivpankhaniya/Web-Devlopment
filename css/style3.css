@@ -43,3 +43,16 @@ h3 {
   align-items: center;
   color: red;
 }
+
+/* Inheritance in CSS =  is a mechanism where some CSS properties applied to a parent element are automatically passed down (inherited) by its child elements. */
+
+div {
+  color: orchid;
+  border: none;
+  margin: 10px;
+  padding: 5px;
+  font-family: "Times New Roman", Times, serif;
+}
+button:hover {
+  background-color: sandybrown;
+}
