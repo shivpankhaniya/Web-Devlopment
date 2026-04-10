@@ -33,3 +33,7 @@ button {
   background-color: #aab23a;
   border: 5px solid red;
 }
+
+div p {
+  color: lightsalmon;
+}
