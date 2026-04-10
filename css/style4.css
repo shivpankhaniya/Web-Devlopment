@@ -28,12 +28,25 @@ h1 {
   border: 3px solid blue;
 }
 
-button {
+#btn {
   color: aquamarine;
   background-color: #aab23a;
   border: 5px solid red;
 }
 
+/* A descendant selector is used to select elements that are inside another element (at any level). */
 div p {
   color: lightsalmon;
+}
+
+/* Adjacent sibiling selector = that comes immediately after any tag */
+h4 + button {
+  color: mediumvioletred;
+  background-color: lightgreen;
+}
+
+/* child combinator = select all element which are follow child & parent relatiophship */
+div > button {
+  color: #aabbc6;
+  background-color: deeppink;
 }
