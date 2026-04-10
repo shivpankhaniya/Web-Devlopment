@@ -1,0 +1,35 @@
+/* selector in css ther are mainly 4 type of selector in css */
+
+/* 1 = universal selector = to selct my whole html page using universal selector */
+
+* {
+  font-family: "Courier New";
+}
+
+/* 2 = element selector = select all elements of the same type using select html tag */
+h1 {
+  color: #aab23a;
+  background-color: bisque;
+}
+
+/* 3 = id selector = select an element based on the value of the element id attribute */
+/* id selector is case sensitive  */
+
+#paragraph {
+  color: sandybrown;
+  background-color: blueviolet;
+}
+
+/* class selector = selects an element based on their class attribute */
+
+.a {
+  color: black;
+  background-color: hotpink;
+  border: 3px solid blue;
+}
+
+button {
+  color: aquamarine;
+  background-color: #aab23a;
+  border: 5px solid red;
+}
