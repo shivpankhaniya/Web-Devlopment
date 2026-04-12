@@ -49,4 +49,5 @@ h4 + button {
 div > button {
   color: #aabbc6;
   background-color: deeppink;
+  border: 6px solid sandybrown;
 }
