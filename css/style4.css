@@ -51,3 +51,13 @@ div > button {
   background-color: deeppink;
   border: 6px solid sandybrown;
 }
+
+input[type="text"] {
+  background-color: black;
+  color: white;
+}
+
+input[type="password"] {
+  background-color: lightgoldenrodyellow4;
+  color: red;
+}
