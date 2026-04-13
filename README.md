@@ -30,7 +30,7 @@ his repository contains my learning and practice files while studying Full Stack
 - Layout design
 - Small mini projects
 
-## 👨‍💻 Author
+## 👨‍💻 Learner
 
 Shiv K. Pankhaniya
 
