@@ -1,0 +1,20 @@
+/* alpha channel = to sets the oppcity for a color its range from 0-1 */
+
+div {
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+  margin: 10px;
+  background-color: rgba(11, 23, 54, 0.42);
+}
+
+/* opacity = sets the opacity foa a element */
+
+/* transistions = transistions enablr you to define the transistions between two states of an element */
+
+#second:hover {
+  background-color: palevioletred;
+  border-radius: 50%;
+  opacity: 1;
+  transition: 1s 1s;
+}
