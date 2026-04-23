@@ -1,0 +1,88 @@
+/* FLEX-BOX */
+/* Flexbox-direction = it sets how flex items are placed in the flex container, along which axis & direction */
+/* Justify-content = Tells how the browser distriubutes space between & around content */
+/* Text-wrap = sets whether flex items are for ced an to one line or can wrap multiple line */
+
+h1 {
+  text-align: center;
+}
+
+#container {
+  width: 600px;
+  height: 200px;
+  padding: 10px;
+  background-color: azure;
+  border: 3px solid black;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 3px 3px 6px black;
+  font-size: 30px;
+  font-family: "Lucida Sans";
+  text-shadow: 3px 3px 6px black;
+  align-items: center;
+  align-items: baseline;
+  align-content: center;
+}
+
+#container div {
+  border: 2px solid black;
+  padding: 6px;
+  height: 100px;
+  width: 100px;
+  /* border-radius: 15px; */
+  margin: 40px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+#CONTAINER {
+  height: 400px;
+  width: 400px;
+  background-color: white;
+  border: 2px solid lightseagreen;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 500px;
+  margin-top: 100px;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: grey;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 50px;
+  text-align: center;
+}
+
+#navbar {
+  height: 50px;
+  width: 900px;
+  background-color: pink;
+  border: 3px solid lightseagreen;
+  border-radius: 10px;
+  display: flex;
+  align-content: center;
+}
+
+.option {
+  height: 50px;
+  width: 80px;
+  border-radius: 10px;
+  margin-left: 5px;
+  font-size: 24px;
+  line-height: 50px;
+}
+.option:hover {
+  background-color: antiquewhite;
+  text-shadow: 3px 3px 6px black;
+}
