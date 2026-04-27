@@ -1,0 +1,26 @@
+h1 {
+  color: khaki;
+  text-align: center;
+  text-decoration: underline double rebeccapurple;
+}
+
+#container {
+  height: 400px;
+  width: 300px;
+  background-color: teal;
+  border: 3px solid black;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  margin: auto;
+}
+
+.item {
+  background-color: crimson;
+  text-align: center;
+  height: 100px;
+  width: 60px;
+  border: 3px solid gold;
+  box-shadow: 2px 2px 6px;
+  box-shadow: 3px 3px 15px black;
+}

@@ -1,0 +1,33 @@
+div {
+  background-color: pink;
+  height: 100px;
+  width: 600px;
+  border-radius: 15px;
+  margin: auto;
+}
+
+h1 {
+  color: navy;
+  animation: font;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-delay : 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  text-align: center;
+  display: inline-block;
+  justify-content: center;
+  margin-left: 187px;
+}
+
+@keyframes font {
+  from {
+    font-size: 30px;
+    color: black;
+  }
+
+  to {
+    font-size: 40px;
+    color: red;
+  }
+}
