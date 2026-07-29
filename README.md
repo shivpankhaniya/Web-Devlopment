@@ -4,7 +4,7 @@ Full Stack Web Development practice and learning repository
 
 # Full Stack Web Development Journey 🚀
 
-his repository contains my learning and practice files while studying Full Stack Web Development.
+This repository contains my learning and practice files while studying Full Stack Web Development.
 
 ## 📚 What I'm Learning
 
