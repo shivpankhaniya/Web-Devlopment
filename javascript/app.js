@@ -16,8 +16,8 @@ console.log(total);
 console.log(total);
  
 //perator
-let A = 15;
-let B = 6;
+export let A = 15;
+export let B = 6;
 
 //Arithematic Operator
 console.log(A + B);
@@ -49,10 +49,8 @@ console.log(A);
 A %= B;
 console.log(A);
 
-//Comparison Operator
+// Compariosn Operator
 
-
-console.log(A == B);  // false
 console.log(A < B);  // true
 console.log(A > B);  // false
 console.log(A != B); // true
