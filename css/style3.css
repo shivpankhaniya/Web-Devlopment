@@ -11,7 +11,7 @@ h1 {
   font-weight: 600;
   /* font weight define font weightb like bold ,bolder ,lighter etc... */
   text-decoration: aqua line-through;
-  letter-spacing: 5px;
+  letter-spacing: 6px;
 }
 /* Text Decoration = sets the appearenceof decoarative lines on text like underline */
 #b {
