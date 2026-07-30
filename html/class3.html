@@ -1,175 +1,172 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <!-- <table> table are used to represent real life tabledata </table> -->
 
-    <!-- <tr>used to display table row</tr> -->
-    <!-- <td>used to display table data</td> -->
-    <!-- <th>used to display table header</th> -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
 
-    <!-- <thead>used to wrap table header</thead>
+<body>
+  <!-- <table> table are used to represent real life tabledata </table> -->
+
+  <!-- <tr>used to display table row</tr> -->
+  <!-- <td>used to display table data</td> -->
+  <!-- <th>used to display table header</th> -->
+
+  <!-- <thead>used to wrap table header</thead>
       <tbody>used to wrap table body</tbody>
       <tfoot>used to wrap table footer</tfoot> -->
 
-    <!-- colspan & rowspan attributes = are used to crate cells which spans over multiplw=e rows & columns -->
+  <!-- colspan & rowspan attributes = are used to crate cells which spans over multiplw=e rows & columns -->
 
-    <table border="black">
-      <caption>
-        A test table with merged cells
-      </caption>
-      <tr>
-        <td rowspan="2"></td>
-        <td colspan="2">average</td>
-        <td rowspan="2">redeyes</td>
-      </tr>
+  <table border="black">
+    <caption>
+      A test table with merged cells
+    </caption>
+    <tr>
+      <td rowspan="2"></td>
+      <td colspan="2">average</td>
+      <td rowspan="2">redeyes</td>
+    </tr>
 
-      <tr>
-        <td>height</td>
-        <td>weight</td>
-      </tr>
+    <tr>
+      <td>height</td>
+      <td>weight</td>
+    </tr>
 
-      <tr></tr>
+    <tr></tr>
 
-      <tr>
-        <td>males</td>
-        <td>1.9</td>
-        <td>0,003</td>
-        <td>40%</td>
-      </tr>
-      <tr>
-        <td>females</td>
-        <td>1.7</td>
-        <td>0.002</td>
-        <td>43%</td>
-      </tr>
-    </table>
-    <br />
-    <hr />
-    <br />
+    <tr>
+      <td>males</td>
+      <td>1.9</td>
+      <td>0,003</td>
+      <td>40%</td>
+    </tr>
+    <tr>
+      <td>females</td>
+      <td>1.7</td>
+      <td>0.002</td>
+      <td>43%</td>
+    </tr>
+  </table>
+  <br />
+  <hr />
+  <br />
 
-    <!-- <form> are used to collect a data from the user</form> -->
-    <!-- <form action="">action attribute are used to define what action need to perform next</form> -->
-    <!-- <input = used to crete multiple controls> -->
-    <!-- <button>are used to create button like submit,reset etc....</button> -->
+  <!-- <form> are used to collect a data from the user</form> -->
+  <!-- <form action="">action attribute are used to define what action need to perform next</form> -->
+  <!-- <input = used to crete multiple controls> -->
+  <!-- <button>are used to create button like submit,reset etc....</button> -->
 
-    <form action="action.php">
-      <!-- (for id) is a classically approach to create a input type  -->
-      <div>
-        <label for="username">username:</label>
-        <input type="text" id="username" />
-      </div>
-      <br />
-
-      <div>
-        <label for="password">password:</label>
-        <input type="password" id="password" />
-      </div>
-      <br />
-
-      <div>
-        email id:
-        <input type="email" placeholder="enter your email" />
-      </div>
-      <br />
-
-      <div>
-        <button type="submit">submit</button>
-        <button type="reset">reset all info</button>
-        <button type="button">submit</button>
-      </div>
-    </form>
-
-    <br />
-    <hr />
+  <form action="action.php">
+    <!-- (for id) is a classically approach to create a input type  -->
     <div>
-      <!-- name = name of the form control submitted with the from as part of a name/value pair  -->
+      <label for="username">username:</label>
+      <input type="text" id="username" />
+    </div>
+    <br />
 
-      <form
-        action="https://www.google.com/search?gs_ssp=eJzj4tTP1TcwMU02T1JgNGB0YPBiS8_PT89JBQBASQXT&q=google&rlz=1C1CHBF_enIN1135IN1135&oq=goo&gs_lcrp=EgZjaHJvbWUqEwgBEC4YgwEYxwEYsQMY0QMYgAQyBggAEEUYOTITCAEQLhiDARjHARixAxjRAxiABDINCAIQABiDARixAxiABDINCAMQABiDARixAxiABDINCAQQABiDARixAxiABDIGCAUQRRg8MgYIBhBFGDwyBggHEEUYPNIBCDIxMDRqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8"
-      >
-        <input type="text" placeholder="search on google " name="gs_ssp" />
-        <button>search</button>
-      </form>
+    <div>
+      <label for="password">password:</label>
+      <input type="password" id="password" />
+    </div>
+    <br />
+
+    <div>
+      email id:
+      <input type="email" placeholder="enter your email" />
+    </div>
+    <br />
+
+    <div>
+      <button type="submit">submit</button>
+      <button type="reset">reset all info</button>
+      <button type="button">submit</button>
+    </div>
+  </form>
+
+  <br />
+  <hr />
+  <div>
+    <!-- name = name of the form control submitted with the from as part of a name/value pair  -->
+
+    <form
+      action="https://www.google.com/search?gs_ssp=eJzj4tTP1TcwMU02T1JgNGB0YPBiS8_PT89JBQBASQXT&q=google&rlz=1C1CHBF_enIN1135IN1135&oq=goo&gs_lcrp=EgZjaHJvbWUqEwgBEC4YgwEYxwEYsQMY0QMYgAQyBggAEEUYOTITCAEQLhiDARjHARixAxjRAxiABDINCAIQABiDARixAxiABDINCAMQABiDARixAxiABDINCAQQABiDARixAxiABDIGCAUQRRg8MgYIBhBFGDwyBggHEEUYPNIBCDIxMDRqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8">
+      <input type="text" placeholder="search on google " name="gs_ssp" />
+      <button>search</button>
+    </form>
+    <br />
+    <hr />
+
+    <form action="/action">
+      * I am a male & i am 18+ eligible for voting <br />
+      <input type="checkbox" id="true" name="true" />
+      <label for="true">male</label>
+      <input type="checkbox" id="false" name="true" />
+      <label for="false">18+</label>
+
+      <!-- in checkbox input element we tick multiple checkbox at same time   -->
       <br />
-      <hr />
+      <br />
 
-      <form action="/action">
-        * I am a male & i am 18+ eligible for voting <br />
-        <input type="checkbox" id="true" name="true" />
-        <label for="true">male</label>
-        <input type="checkbox" id="false" name="true" />
-        <label for="false">18+</label>
+      * Sachin Tendulakar is a God of Cricket <br />
+      <input type="radio" id="true" name="true" />
+      <label for="true">true</label>
+      <input type="radio" id="false" name="true" />
+      <label for="false">false</label>
+      <!-- in radio input element we choice only one tickbox at same time -->
+      <br /><br />
 
-        <!-- in checkbox input element we tick multiple checkbox at same time   -->
-        <br />
-        <br />
+      <!-- <select name="" id=""> is used to choice your occupation,profession etc...</select> -->
+      <select name="profession" id="profession">
+        <option>choice your occupation</option>
+        <option value="stu">student</option>
+        <option value="dev">developer</option>
+        <option value="tech">teacher</option>
+      </select>
+      <br /><br />
 
-        * Sachin Tendulakar is a God of Cricket <br />
-        <input type="radio" id="true" name="true" />
-        <label for="true">true</label>
-        <input type="radio" id="false" name="true" />
-        <label for="false">false</label>
-        <!-- in radio input element we choice only one tickbox at same time -->
-        <br /><br />
+      * i am full stack developer
+      <input type="radio" id="true" name="true" />
+      <label for="true">Yes</label>
+      <input type="radio" id="false" name="true" />
+      <label for="false">No</label>
+      <br /><br />
 
-        <!-- <select name="" id=""> is used to choice your occupation,profession etc...</select> -->
-        <select name="profession" id="profession">
-          <option>choice your occupation</option>
-          <option value="stu">student</option>
-          <option value="dev">developer</option>
-          <option value="tech">teacher</option>
+      <!-- range = range input type is use for volume up & down  -->
+      volume
+      <input type="range" id="volume" name="vol" min="0" max="100" />
+      <label for="volume"></label>
+      <br /><br />
+
+      <!-- <textarea name="" id="">used for provide feedback</textarea> -->
+      <textarea name="feedback" placeholder="enter your feedback" rows="6" cols="24"></textarea>
+      <br /><br />
+
+      <form action="register.js">
+        <input type="text" placeholder="first name" />
+        <input type="text" placeholder="second name" /><br /><br />
+
+        plese select gender
+        <select name="gender" id="gender">
+          <option value="">slect your gender</option>
+          <option value="m">male</option>
+          <option value="f">female</option>
         </select>
         <br /><br />
 
-        * i am full stack developer
-        <input type="radio" id="true" name="true" />
-        <label for="true">Yes</label>
-        <input type="radio" id="false" name="true" />
-        <label for="false">No</label>
+        Do you agree to all terms of service?
+        <input type="checkbox" name="check" id="che" />
+        <label for="che">yes i agree</label>
         <br /><br />
-
-        <!-- range = range input type is use for volume up & down  -->
-        volume
-        <input type="range" id="volume" name="vol" min="0" max="100" />
-        <label for="volume"></label>
-        <br /><br />
-
-        <!-- <textarea name="" id="">used for provide feedback</textarea> -->
-        <textarea
-          name="feedback"
-          placeholder="enter your feedback"
-          rows="6"
-          cols="24"
-        ></textarea>
-        <br /><br />
-
-        <form action="register.js">
-          <input type="text" placeholder="first name" />
-          <input type="text" placeholder="second name" /><br /><br />
-
-          plese select gender
-          <select name="gender" id="gender">
-            <option value="">slect your gender</option>
-            <option value="m">male</option>
-            <option value="f">female</option>
-          </select>
-          <br /><br />
-
-          Do you agree to all terms of service?
-          <input type="checkbox" name="check" id="che" />
-          <label for="che">yes i agree</label>
-          <br /><br />
-          <button>register</button>
-        </form>
-        
-        <br /><br />
-        <button>submit</button>
+        <button>register</button>
       </form>
-    </div>
-  </body>
+
+      <br /><br />
+      <button>submit</button>
+    </form>
+  </div>
+</body>
+
 </html>
