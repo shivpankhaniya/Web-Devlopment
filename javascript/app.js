@@ -50,7 +50,6 @@ A %= B;
 console.log(A);
 
 // Compariosn Operator
-
 console.log(A < B);  // true
 console.log(A > B);  // false
 console.log(A != B); // true
