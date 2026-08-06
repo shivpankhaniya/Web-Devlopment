@@ -273,9 +273,8 @@ if (X > Y) {
 
 let num1 = 32;
 let num2 = 47852
-if ((num1%10) == (num2%10)){
-    console.log("both last digit is same", num1%10);
-
-}else{
+if ((num1 % 10) == (num2 % 10)) {
+    console.log("both last digit is same", num1 % 10);
+} else {
     console.log("both last digit is not same");
 }
