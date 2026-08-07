@@ -79,7 +79,7 @@ console.log("After unshift method:", cars);
 // array methods
 
 let me = ["red", "yellow", "blue"];
-console.log(me + "      " + me.indexOf("red") + "       " + me.includes("red"));     
+console.log(me + "      " + me.indexOf("red") + "       " + me.includes("red"));
 
 // indexof return index of element
 // me.indexOf("red");
@@ -87,8 +87,83 @@ console.log(me + "      " + me.indexOf("red") + "       " + me.includes("red"));
 // me.includes("red");
 
 // concat merge 2 array
-let st = ["lords","edan-garden","kotla"]
+let st = ["lords", "edan-garden", "kotla"]
 console.log(st.concat(me));
 
 // reverse use to reverse an array element
 console.log(st.reverse());
+
+// slices method use to copies portion of an array
+console.log(cars.slice(2));
+
+// splices method use for remove/replace/& adda new element  syntax#(start,deletecount,item0....itemN)
+let kk = ["mango", "apple", "orange", "cherry", "pinaple", "greps"]
+console.log(kk.splice(0, 0, "banana", "watermelon"));
+console.log(kk.splice(2));
+console.log(kk.splice(0, 0, "banana", "watermelon"));
+
+
+// sort method is use to sort an array element in ascending or decending order
+let jj = ["mango", "apple", "orange", "cherry", "pinaple", "greps"]
+console.log(jj.sort());
+
+// constant array = don't change value in array or method
+const aa = [1, 2, 3, 4, 5, 6];
+console.log(aa);
+// aa = [7,8,9];
+// console.log(aa);
+// this thing not happen because const not allow change element in array 
+
+// nested array to crete array inside the array
+let arr = [['X', 'NULL', 'O'], ['NULL', 'X', 'NULL'], ['O', 'NULL', 'X']];
+console.log(arr);
+
+// access 0 array & change it value
+console.log(arr[0]);
+console.log(arr[0][1] = 'O')
+console.log(arr)
+
+let tt = [64, "hello", 99, 'virat'];
+let nn = 64;
+
+if (tt.indexOf(nn) != 1) {
+    console.log("element exits in array")
+
+} else {
+    console.log("element not exits in array")
+
+}
+
+let gg = [7, 9, 0, -2];
+let n = 3;
+let ans = gg.slice(0, n);
+console.log(ans);
+
+
+let ll = [7, 9, 0, -2];
+let m = 3;
+let an = gg.slice(ll.length - n);
+console.log(an);
+
+// let ghd = prompt("enter your string");
+// if (ghd.length == 0) {
+//     console.log("string is empty")
+
+// } else {
+//     console.log("string is not empty")
+
+// }
+
+let nh = "Hello world";
+let idx = 3
+if (nh[idx] == nh[idx].toLowerCase()) {
+    console.log("ch is lowercse");
+
+} else {
+    console.log("ch is not lower case");
+
+}
+
+// let sts = prompt("enter a string:")
+// console.log(`before empty spaces: ${sts}`);
+// console.log(`after remove empty spaces: ${sts.trim()}`);
